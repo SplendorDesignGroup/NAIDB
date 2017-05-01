@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Duggan;Daniel;J
+FN:Daniel J Duggan
+ORG:NAI DiLeo Bram & Co
+TITLE:Vice President
+TEL;WORK;VOICE:(732) 985-3023
+TEL;CELL;VOICE:(973) 452-9897
+TEL;WORK;FAX:(732) 985-3022
+ADR;WORK:;;1315 Stelton Road;Piscataway;NJ,;08854;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1315 Stelton Road=0D=0APiscataway, NJ, 08854=0D=0AUnited States of America
+EMAIL;PREF;INTERNET:dduggan@naidb.com
+REV:20130807T133709Z
+END:VCARD

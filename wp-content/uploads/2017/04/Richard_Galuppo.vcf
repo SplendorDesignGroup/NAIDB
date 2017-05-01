@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Galuppo;Richard;M.
+FN:Richard M. Galuppo
+ORG:NAI DiLeo-Bram & Co.
+TITLE:Sr. Vice President
+TEL;WORK;VOICE:(732) 985-3000
+TEL;CELL;VOICE:(908) 612-2868
+ADR;WORK:;;1315 Stelton Rd.;Piscataway;NJ;08854;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1315 Stelton Rd.=0D=0APiscataway, NJ 08854=0D=0AUnited States of America
+EMAIL;PREF;INTERNET:rgaluppo@naidb.com
+REV:20130807T134209Z
+END:VCARD

@@ -1,0 +1,356 @@
+.gform_wrapper ul {
+	list-style: none;
+}
+
+.gform_fields {
+	margin: 0;
+}
+
+.gfield {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.gfield_label {
+	display: none;
+}
+
+.ginput_container ul {
+	margin-left: 0;
+}
+
+.gfield_error {
+	input, textarea {
+		border-color: red;
+	}
+}
+
+.gfield_description {
+	margin-top: 10px;
+}
+
+.gform_confirmation_message {
+	margin-bottom: 15px;
+}
+
+.gform_footer {
+	text-align: right; /*aligning of submit button*/
+}
+
+.validation_error {
+	margin-bottom: 15px;
+	padding: 5px;
+	color: darken(red, 20);
+	border: 1px solid red;
+}
+
+.validation_message {
+	margin-bottom: 10px;
+	color: darken(red, 20);
+}
+
+//sign up form
+.sign-up{
+	position: relative;
+	.validation_error, .validation_message{
+		display: none;
+	}
+	.gform_body{
+		width: 205px;
+		float: left;
+		.gfield_error{
+			input{
+				border: 1px solid  #dd0000 !important;
+			}
+		}
+	}
+	.gform_footer{
+		width: 90px;
+		text-align: center;
+		float: left;
+	}
+	.gfield {
+		margin-bottom: 0;
+	}
+	.button, input[type="submit"]{
+		background: $gray;
+		color:$white;
+		font-family: $font;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: 14px;
+		height: 36px;
+		&:hover,&:focus{
+			background: $red;
+			color:$white;
+		}
+	}
+	.gform_ajax_spinner{
+		display: none;
+	}
+}
+
+.resource-form{
+	.validation_error, .validation_message{
+		display: none;
+	}
+	.gform_description{
+		color:$white;
+		margin-bottom: 20px;
+		display: block;
+		font-size: 20px;
+	}
+	.gform_body{
+		.gfield {
+			margin-bottom: 0;
+			float:left;
+			input{
+				max-width: 100%;
+				width: 280px;
+			}
+			&:first-child{
+				margin-right: 20px;
+				input{
+					width: 290px;
+				}
+			}
+		}
+	}
+	.gform_footer{
+		width: 135px;
+		text-align: center;
+		float: left;
+		.button{
+			font-family: $font;
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 14px;
+			background: $white;
+			color:$black;
+			height: 50px;
+			width: 100%;
+			&:hover,&:focus{
+				background: $black;
+				color:$white;
+			}
+		}
+	}
+}
+
+
+.property-form{
+	background-color: #f7f7f7;
+	padding: 30px;
+	.gform_body{
+		.gfield {
+			margin-bottom: 10px;
+			input{
+				height: 48px;
+				padding: 15px 18px;
+				font-size: 15px;
+			}
+		}
+	}
+	.gform_footer{
+		.button{
+			font-family: $font;
+			text-transform: uppercase;
+			font-size: 15px;
+			background: $white;
+			color:$red;
+			padding: 16px 50px;
+			border: 1px solid #adaeae;
+			&:hover,&:focus{
+				background: $red;
+				color:$white;
+			}
+		}
+	}
+}
+
+
+.gform_wrapper{
+	display: inline-block;
+}
+
+// Datepicker styles
+
+.ui-datepicker {
+	width: 216px;
+	height: auto;
+	margin: 5px auto 0;
+	font-size: 11px;
+	z-index: 9999 !important;
+	@include box-shadow(0px 0px 10px 0px rgba(0, 0, 0, .5));
+	a {
+		text-decoration: none;
+	}
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	thead {
+		background: #f7f7f7;
+		border-bottom: 1px solid #bbb;
+		th{
+			padding: 3px;
+			text-align: center;
+			border: 1px solid #ddd;
+		}
+	}
+	tbody {
+		border: none;
+		td {
+			padding: 0;
+			border: 1px solid #bbb;
+		}
+		th {
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 6pt;
+			padding: 5px 0;
+			color: #666;
+		}
+		td {
+			span, a {
+				display: inline-block;
+				font-weight: bold;
+				text-align: center;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				color: #666;
+			}
+		}
+	}
+}
+
+.ui-datepicker-header {
+	background-color: #666; /* set the header background color */
+	color: #fff;
+	font-weight: 700;
+	border: none;
+	&:after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+}
+
+.ui-datepicker-month,
+.ui-datepicker-year {
+	width: 50%;
+	float: left;
+	padding: 5px 20px 5px 5px;
+	height: auto;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+	font-size: 12px;
+	color: #fff;
+	padding: 5px;
+	line-height: 1.4;
+	width: 50%;
+	float: left;
+}
+
+.ui-datepicker-next {
+	text-align: right;
+}
+
+.ui-datepicker-calendar{
+	margin: 0 0 0 0 !important;
+	.ui-state-default {
+		background: #ededed;
+	}
+	.ui-state-hover {
+		background: #fff;
+	}
+	.ui-state-active {
+		background: #fff2aa; /* set the active date background color */
+		border: 1px solid #c19163; /* set the active date border color */
+		position: relative;
+		margin: -1px;
+		height: 32px;
+		width: 32px;
+	}
+}
+
+.ui-datepicker-unselectable{
+	.ui-state-default {
+		background: #f4f4f4;
+		color: #b4b3b3;
+	}
+	&.ui-state-disabled {
+		background-color: #d7d7d7;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	//sign up form
+	.sign-up{
+		.gform_body{
+			width: 140px;
+			float: left;
+		}
+		.gform_footer{
+			width: 60px;
+		}
+		.button, input[type="submit"]{
+			padding: 10px;
+		}
+	}
+	//resource form
+	.resource-form{
+		.gform_description{
+			margin-bottom: 15px;
+			font-size: 16px;
+		}
+		.gform_body{
+			margin-bottom: 10px;
+			width: 100%;
+			.gfield {
+				margin-bottom: 10px;
+				float:none;
+				input{
+					width: 100%;
+				}
+				&:first-child{
+					margin-right: 0;
+					input{
+						width: 100%;
+					}
+				}
+			}
+		}
+		.gform_footer{
+			width: 100%;
+			float: none;
+		}
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+	.resource-form{
+		.gform_description{
+			max-width: 400px;
+		}
+		.gform_body{
+			.gfield {
+				input{
+					max-width: 100%;
+					width: 200px;
+				}
+				&:first-child{
+					margin-right: 20px;
+					input{
+						width: 200px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Gagliardi;Richard
+FN:Richard Gagliardi
+ORG:NAI DiLeo-Bram & Co., Property Management Services
+TITLE:Property Accountant
+NOTE;ENCODING=QUOTED-PRINTABLE:=0D=0A
+TEL;WORK;VOICE:732-985-3020 ext.108
+TEL;WORK;FAX:732-985-3366
+ADR;WORK:;;1315 Stelton Road;Piscataway;NJ;08854;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1315 Stelton Road=0D=0APiscataway, NJ 08854=0D=0AUnited States of America
+URL;WORK:www.naidb.com
+EMAIL;PREF;INTERNET:rgagliardi@naidb.com
+REV:20130807T134151Z
+END:VCARD

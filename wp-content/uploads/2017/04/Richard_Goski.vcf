@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Goski;Richard
+FN:Richard Goski
+ORG:NAI DiLeo-Bram & Co.
+TITLE:Vice President
+TEL;WORK;VOICE:(732) 985-3000
+TEL;CELL;VOICE:(908) 295-5244
+ADR;WORK:;;1315 Stelton Road;Piscataway;NJ;08854;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1315 Stelton Road=0D=0APiscataway, NJ 08854=0D=0AUnited States of America
+URL;WORK:http://www.naidileobram.com
+EMAIL;PREF;INTERNET:rgoski@naidb.com
+REV:20130807T134200Z
+END:VCARD

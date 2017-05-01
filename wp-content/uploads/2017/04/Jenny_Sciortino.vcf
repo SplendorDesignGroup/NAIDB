@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Sciortino;Jenny
+FN:Jenny Sciortino
+ORG:NAI DiLeo-Bram & Co.
+TEL;WORK;VOICE:(732) 985-3000
+ADR;WORK:;;1315 Stelton Road;Piscataway;NJ;08854;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1315 Stelton Road=0D=0APiscataway, NJ 08854=0D=0AUnited States of America
+URL;WORK:http://www.naidb.com
+EMAIL;PREF;INTERNET:jsciortino@naidb.com
+REV:20130807T134021Z
+END:VCARD

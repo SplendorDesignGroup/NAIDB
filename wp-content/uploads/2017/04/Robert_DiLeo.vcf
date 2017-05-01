@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:2.1
+N:DiLeo;Robert;J.
+FN:Robert J. DiLeo
+ORG:NAI DiLeo-Bram & Co.
+TITLE:Principal
+TEL;WORK;VOICE:(732) 985-3000
+ADR;WORK:;;1315 Stelton Road;Piscataway;NJ;08854;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1315 Stelton Road=0D=0APiscataway, NJ 08854=0D=0AUnited States of America
+URL;WORK:http://www.naidb.com
+EMAIL;PREF;INTERNET:rdileo@naidb.com
+REV:20130807T151839Z
+END:VCARD

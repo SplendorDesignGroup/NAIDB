@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Christopher Galiano;SIOR
+FN:Christopher Galiano, SIOR
+ORG:NAI DiLeo-Bram & Co.
+TITLE:Managing Director
+TEL;WORK;VOICE:(732) 985-3000
+TEL;CELL;VOICE:(732) 887-8138
+ADR;WORK:;;1315 Stelton Rd.;Piscataway;NJ;08854
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1315 Stelton Rd.=0D=0APiscataway, NJ 08854
+URL;WORK:http://naidb.com
+EMAIL;PREF;INTERNET:cgaliano@naidb.com
+REV:20130807T133718Z
+END:VCARD
